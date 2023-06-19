@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="PIEL DE MARIPOSA">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>SOTEIRA</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/WhatsApp Image 2023-03-21 at 12.57.28 AM.jpeg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/WhatsApp Image 2023-03-21 at 12.57.28 AM.jpeg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Introduccion">Conoce a SOTEIRA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Line-up">Line-up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#entrevistas">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contacto">Contacto</a> 
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="/imagen.jpeg" alt="Foto de soteira">
+        <h1>SOTEIRA</h1>
+        <!--<h2>Armadura Para Mariposas</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="C:\Users\pablo\Downloads\tecnolochicas\mariposa2.png" alt="mariposa imagen deja volar tus miedos y saca tus alas a brillar.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a SOTEIRA</h2>
+        <p class="seccion-texto">Soteira es una marca elaborada como proyecto final de la materia "Diseña catalogos de moda", en este catalogo tocamos el tema de Epidermolosis Bullosa o mejor conocida como PIEL DE MARIPOSA. Durante su elaboracion se realizaron diversas inestigaciones y entrevistas con el fin de visibilizar esta comunidad y brindarles ropa con textiles mas amables considerando la sensibilidad de su piel pero siempre manteniendo diseños innovadores y vibrantes para mejorar tanto su calidad de vida como su autoestima.</p>
+      </div>
+    </section>
+
+    <!-- Mision -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">MISION</p>
+            <p>Brindar comodidad y seguridad mediante prendas creadas a base de textiles gentiles y adecuados para su piel.Mejorar la calidad de vida de las personas con Epidermolisis Bullosa, mediante nuestros diseñadores quienes muestran variedad de colores, tendencias y diseños, brindando asi confort y autoestima.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Comodidad</span>
+              <span class="badge text-bg-primary">Bienestar</span>
+              <span class="badge text-bg-primary">Autoestima</span>
+              <span class="badge text-bg-primary">Tendencias</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">VISION</p>
+            <p>Ser una empresa consciente en cuanto a precios, calidad y trato, comprometida a promover un cambio positivo en la vida de las personas con Epidermolisis Bullosa. Promover campañas para sumar gente al proyecto y realizar alianzas estrategicas para el reforzamiento de nuevas tecnologias. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Estrategias</span>
+              <span class="badge text-bg-primary">Calidad</span>
+              <span class="badge text-bg-primary">Compromiso</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">BRIEF</p>
+            <p>Nuestra marca recibe el nombre de SOTEIRA por la diosa menor de la mitologia griega que personifica el concepto abstracto de "estar a salvo", salvacion, liberacion o preservacion que es lo que nosotros buscamos brindar con cada una de las prendas. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Piel de mariposa</span>
+              <span class="badge text-bg-primary">Armadura para mariposas</span>
+              <span class="badge text-bg-primary">Usuario</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-azul">Line-Up</h2>
+        <h3 class="seccion-descripcion">Sorprendete y vuela tu imaginacion...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-5 col-md-5 col-lg-4">
+            <div class="proyecto">
+              <img src="C:\Users\pablo\Downloads\tecnolochicas\prenda 1.jpg" alt="Oufit 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="C:\Users\pablo\Downloads\tecnolochicas\prenda 2.jpg" alt="Oufit 2">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="C:\Users\pablo\Downloads\tecnolochicas\prenda 3.jpeg" alt="Oufit 3">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="C:\Users\pablo\Downloads\tecnolochicas\prenda 4.jpg" alt="Oufit 4">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto5.png" alt="Oufit 5">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto6.png" alt="Oufit 6">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://es.wikipedia.org/wiki/Soteria_(mitolog%C3%ADa)" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+            ¿Quien es soteira?
+            </li>
+          </a>
+          <a href="https://www.debra.org.mx/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Fundacion que apoya la Epidermolisis Bullosa
+            </li>
+          </a>
+          <a href="https://www.youtube.com/watch?v=nix1YjNFQBU" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+            #Yo vendo mi cuerpo
+            </li>
+          </a>
+          <a href="https://www.mayoclinic.org/es-es/diseases-conditions/epidermolysis-bullosa/symptoms-causes/syc-20361062" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Sintomas y causas Epidermolisis Bullosa
+            </li>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Cuidados y tipos de Epidermolisis Bullosa
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de pacientes EB...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="C:\Users\pablo\Downloads\tecnolochicas\elias.jpg" alt="Foto de Elias">
+              <p class="testimonio-texto">Yo me llamo Elías y tengo 4 años, vivo en Irapuato. Lo que más me gusta es jugar a los carritos pequeños. ¿Les digo algo?, que ya estoy creciendo, no comía antes bien, pero ya estoy comiendo bien.
+                ¿Te digo qué?, yo decidí 3 cosas, primero voy a volar en un avión, luego voy andar en mi coche un Focus y luego cuando sea grande voy a boxear… Es que la crema hizo que se me hicieran unas tecatas amarillas en los pies, pero estoy tratando de ser valiente para que me las quite mi mamá, ya las hice mis amigas, ellas me van a tratar de ayudar levantándose.
+                Les quiero presentar a alguien, ella es mi mamá, ella se llama María Esther Negrete Vargas.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Elias Ruiz Negrete</p>
+                <p class="cargo">Epidermolisis Bullosa Simple</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="C:\Users\pablo\Downloads\tecnolochicas\maria.jpg" alt="Foto de Maria">
+              <p class="testimonio-texto"> Mi nombre es María de los ángeles Rodríguez Contreras con 57 años de edad y como se dice antigüitamente para servirle a Dios y a Usted. Aquí estamos con un problema de toda la vida, de nacimiento, que se llama Epidermolisis Bullosa, enfermedad rara. A pesar de todo este desarrollo del problema de mis manos y el problema de la piel estoy casada.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Maria</p>
+                <p class="cargo">Epidermolisis Distrófica</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="C:\Users\pablo\Downloads\tecnolochicas\itzel.jpg" alt="Foto de Itzel">
+              <p class="testimonio-texto">Mamá de Itzel: Yo soy la mamá de Itzel, ella es muy seria, le gusta muy poco platicar, le gusta mucho ir a la escuela, jugar, dibujar, incluso salir en bailables y participar. Cuando me embarace de Soledad me hice a la idea de que iba a nacer con el mismo problema de mi primer hija que es sordomuda, pensé «de todos modos tengo que sacarla adelante» pero soledad nació con un problema diferente, Epidermolisis Bullosa.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Itzel</p>
+                <p class="cargo">Epidermolisis Bullosa Distrófica</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para ayudarte a mejorar tu calidad de vida.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:janedoe@micorreo.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="C:\Users\pablo\Downloads\tecnolochicas\IMG-20230321-WA0001.jpg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Me cuido en tendencia.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-tik tok"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:jenny371@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Jennyfer Martinez (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
